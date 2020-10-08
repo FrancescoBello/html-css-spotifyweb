@@ -89,13 +89,22 @@ text-decoration: none;
 
 main {
   height:calc(100vh - 90px);
+<<<<<<< HEAD
+=======
+  background:red;
+>>>>>>> main
   display:flex;
   flex-wrap: nowrap;
 }
 
 .col-sx {
+<<<<<<< HEAD
   width:200px;
   background: black;
+=======
+  width:300px;
+  background: brown;
+>>>>>>> main
   height: 100%;
   flex-direction: column;
   color: grey;
@@ -154,7 +163,11 @@ h6{
   color: white;
 }
 .bottom{
+<<<<<<< HEAD
   align-items: flex-end;
+=======
+  justify-content: space-between;
+>>>>>>> main
 }
 .install{
   text-decoration: none;
@@ -165,6 +178,7 @@ h6{
 }
 .col-dx {
   flex-grow:1;
+<<<<<<< HEAD
   background: yellow;
   height: 100%;
   text-align: center;
@@ -205,9 +219,17 @@ h6{
 .scopri li a:active{
   color: white;
   text-decoration: none;
+=======
+  background: pink;
+  height: 100%;
+>>>>>>> main
 }
 
 footer {
   height:90px;
+<<<<<<< HEAD
   background: grey;
+=======
+  background: green;
+>>>>>>> main
 }
