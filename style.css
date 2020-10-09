@@ -89,6 +89,10 @@ h6{
     .m-info{
       display: none;
     }
+    .ftdx{
+      display: none;
+    }
+
 
 }
 .bottom{
@@ -172,8 +176,6 @@ footer {
   background-color: grey;
   display: flex;
   color: white;
-
-
 }
 .ftsx{
   display: flex;
@@ -190,15 +192,15 @@ footer {
 
 }
 .fa-heart{
-  margin-top: 25px;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 20px;
 }
 .ft-center {
     padding: 0 10px;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    width: 30%;
+    width: 50%;
 }
 .mcomand {
     padding: 10px;
@@ -218,4 +220,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.ftdx{
+  width: 30%;
+  /*padding: 0 10px;*/
+  display: flex;
+  align-items: center;
+float: right;
+}
+.volume a{
+  color: white;
+}
+.volume a input{
+  float: right;
 }
