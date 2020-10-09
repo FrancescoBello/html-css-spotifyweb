@@ -4,88 +4,6 @@
     box-sizing: border-box;
 }
 
-/*
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-  border: 1px solid red;
-
-}
-
-.container::after{
-  content:’’;
-  display: table;
-  clear: both;
-}
-
- header{
-   background-color: yellow;
-   width: calc(100% - 150px);
-   align-items: center;
-   float: right;
-   justify-content: center;
-
- }
-
-
-
-.menu{
-  background-color: black;
-  height: 100vh;
-  width: 150px;
-  color: white;
-}
-.logo p{
-  font-size: 20px;
-  margin-left: 20px;
-
-}
-.logo i{
-  font-size: 35px;
-  margin-left: 20px;
-}
-.menulist button {
-  display: block;
-  font-size: 20px;
-  border-top: none;
-  border-right: none;
-  border-bottom: none;
-  background-color: black ;
-  padding: 10px 10px;
-  border-left: 3px solid #5b6987;
-  border-left: 3px solid
-
-}
-.menulist button:active {
-  border-color: green;
-
-
-}
-.menulist button a{
-  color: grey;
-  text-decoration: none;
-}
-.menulist button a:hover{
-text-decoration: none;
-}
-.menulist button a:active{
-  color: white;
-  text-decoration: none;
-}
-
-.menubottom a{
-   text-decoration: none;
-   color: grey;
-   font-size: 20px;
-   padding: 10px 10px;
-}
-
-.menubottom a:active{
-  color: white;
-  text-decoration: none;
-}
-
-*/
 
 main {
   height: calc(100vh - 90px);
@@ -252,11 +170,14 @@ h6{
 footer {
   height:90px;
   background-color: grey;
+  display: flex;
+  color: white;
+
 
 }
 .ftsx{
   display: flex;
-  width: 20%
+  width: 40%
 }
 
 .mplay{
@@ -275,18 +196,14 @@ footer {
 .ft-center {
     padding: 0 10px;
     display: flex;
-  /*  flex-direction: row;
-    flex-grow: 1;*/
-    width: 50%
+    flex-direction: row;
+    flex-grow: 1;
+    width: 30%;
 }
 .mcomand {
     padding: 10px;
     text-align: center;
 }
-.m-but{
-   display: inline-block;;
-}
-
 
 
 .m-but  i {
@@ -294,7 +211,7 @@ footer {
     padding: 0 5px;
     margin-left: 10px;
     line-height: 26px;
-    color: black;
+    color: white;
 }
 .m-time {
   color: white;
