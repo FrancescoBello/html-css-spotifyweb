@@ -171,6 +171,7 @@ h6{
     .m-info{
       display: none;
     }
+
 }
 .bottom{
   align-items: flex-end;
@@ -255,6 +256,7 @@ footer {
 }
 .ftsx{
   display: flex;
+  width: 20%
 }
 
 .mplay{
@@ -264,8 +266,39 @@ footer {
 }
 .m-info{
   margin-top: 25px;
+
 }
 .fa-heart{
   margin-top: 25px;
   font-size: 20px;
+}
+.ft-center {
+    padding: 0 10px;
+    display: flex;
+  /*  flex-direction: row;
+    flex-grow: 1;*/
+    width: 50%
+}
+.mcomand {
+    padding: 10px;
+    text-align: center;
+}
+.m-but{
+   display: inline-block;;
+}
+
+
+
+.m-but  i {
+    font-size: 16px;
+    padding: 0 5px;
+    margin-left: 10px;
+    line-height: 26px;
+    color: black;
+}
+.m-time {
+  color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
